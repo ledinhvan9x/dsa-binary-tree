@@ -1,4 +1,4 @@
-function breadthFirstValuesIterative(root) {
+function breadthFirstValues(root) {
   if (root === null) return [];
 
   const result = [];
@@ -15,3 +15,5 @@ function breadthFirstValuesIterative(root) {
 
   return result;
 }
+// Time complexity: O(n)
+// Space complexity: O(w) - maximum width
